@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.container{
+	justify-content:center;
+	text-align:center;
+	display:grid;
+    width: 300px;
+	margin-top:30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #e2d8f3;
+}
+.color{
+	background-color:pink;
+}
+.button-number:hover{
+	background-color:white;
+}
+.button-action:hover{
+	background-color:deeppink;
+}
+.display{
+	height:200px;
+	font-size:100px;
+	float: right;
+}
+.button-action, .button-number{
+	width: 60px;
+	height: 60px;
+	border-radius:100%;
+	border: none;
+	margin:4px;
+	cursor: pointer;
+	font-size:15px;
+}
+.button-number{
+	background-color:#d3fdf8;
+}

@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+p{
+  padding:40px;
+  text:force-justify;
+  text:bold;
+  color:white;
+  background:#582323;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1{
+  text-align:center;
+  color:#b95b04
+}
+
+h2{
+  text-align: center;
+  color:#b95b04;
+
+}
+
+ul li{
+  color:white;
+  text-align:right;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background:#077eb0
+}
+
+/* Login page */
+
+form{
+  border: 3px solid rgb(203, 42, 42);
+  padding: 40px 150px;
+  margin: 40px;
+}
+
+form.login_form{
+  padding: 40px 150px;
+}
+
+.imgcontainer{
+  text-align: center;
+}
+
+.imgavatar{
+  border-radius: 50%;
+  width: 30%;
+}
+
+button{
+  background-color: rgb(110, 102, 102);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+button:hover{
+  transform: scale(1.2);
+}
+
+/* Nav bar */
+ul li{
+  float: left;
+}
+
+li a{
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a:hover{
+  background-color: aquamarine;
+  color: rgb(231, 193, 193);
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+
+/* Contact page */
+input, select, textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 12px;
+  /* resize: vertical; */
+}
+
+.contact_form{
+  margin: 0 -40px;
+}
+
+table {
+  text-align: center;
+  width: 60%;
+  height: 100%;
+  color: white;
+  margin: auto;
+}
+
+th {
+  text-align: right;
+  background-color: rgb(145, 70, 70);
+}
+
+td {
+  background-color: black;
+}
+
+td:hover{
+  background-color:rgb(249, 162, 62);
+}
+
+footer{
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+    form.login_form{
+  padding: 0 10px;
+  }
+  form{
+  padding: 0 10px;
+  }
+}
